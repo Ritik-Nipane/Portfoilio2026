@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+.worker-next/
+
+# Environment variables (Secrets)
+.env
+.env.local
+
+# Cloudflare/Wrangler files
+.wrangler/
+CloudflareBindings.d.ts
+
+# IDE and OS files
+.DS_Store
+.vscode/
+.idea/
